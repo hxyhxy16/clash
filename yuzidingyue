@@ -5,916 +5,908 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1', server: gz.hmbiplc.com, port: 53202, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: 'n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2', server: sh.hmbiplc.com, port: 53202, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: 'n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3', server: bj.hmbiplc.com, port: 53202, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: 'NAT/AZHK 香港主力 HKT 解锁流媒体_4', server: azhk3.sf66.cf, port: 32005, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/湘港隧道 香港主力 HKT 解锁流媒体_5', server: cxcu.jiyunshu.com, port: 10633, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AZHK 香港主力 HKBN 解锁流媒体_6', server: azhk3.sf66.cf, port: 32006, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7', server: cxcu.jiyunshu.com, port: 59647, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/汕头 香港2 AZHK Nnko提供_8', server: st.ddnspro.cn, port: 28888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: st.ddnspro.cn}}
-  - {name: 'NAT/广港隧道 香港3 HGC Netflix HK_9', server: gy.c6.nkeo.top, port: 45117, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gy.c6.nkeo.top}}
-  - {name: 'NAT/广港隧道 香港4 HGC 原生_10', server: gy.c6.nkeo.top, port: 45112, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gy.c6.nkeo.top}}
-  - {name: 'NAT/皖港隧道 香港9 DMIT 2x_11', server: ah.jiyunshu.com, port: 65222, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/长沙 香港11 AZ Netflix HK_12', server: cxcu.jiyunshu.com, port: 18898, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/皖移 马来西亚 Netflix MY_13', server: ah.jiyunshu.com, port: 10868, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/长沙 雅加达 解锁流媒体 0.7x_14', server: cxcu.jiyunshu.com, port: 27399, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15', server: cxcu.jiyunshu.com, port: 19281, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AZHK 台湾1 GCP TW_16', server: azhk1.sf66.cf, port: 20001, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/皖移 台湾2 Netflix TW_17', server: ah.jiyunshu.com, port: 56301, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/AZHK 台湾3 HINET 原生 家宽_18', server: azhk3.sf66.cf, port: 32009, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/长沙 澳门 CTM Netflix MO_19', server: cxcu.jiyunshu.com, port: 19072, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20', server: 140.179.98.88, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 韩国1 原生 Netflix KR_21', server: 140.179.98.88, port: 50041, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 韩国2 解锁流媒体_22', server: 140.179.98.88, port: 37647, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23', server: 140.179.98.88, port: 21889, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24', server: 140.179.98.88, port: 18888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25', server: 140.179.98.88, port: 50808, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AZHK 日本4 高速 可解流媒体_26', server: azhk1.sf66.cf, port: 20000, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/AWS北京 日本5 可解流媒体 0.7x_27', server: 140.179.98.88, port: 36455, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28', server: ah.jiyunshu.com, port: 27120, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29', server: ah.jiyunshu.com, port: 61531, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/长沙 新加坡1 解锁流媒体 0.7x_30', server: cxcu.jiyunshu.com, port: 20039, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AZHK 新加坡2_31', server: azhk3.sf66.cf, port: 32011, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/长沙 新加坡3 Netflix SG_32', server: cxcu.jiyunshu.com, port: 25132, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AZHK 新加坡4_33', server: azhk1.sf66.cf, port: 20005, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/长沙 美国主力 BGP 原生_34', server: cxcu.jiyunshu.com, port: 18888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/上海 美国主力2_35', server: sh.jiyunshu.com, port: 26817, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sh.jiyunshu.com}}
-  - {name: 'NAT/长沙 美国1 解锁流媒体_36', server: cxcu.jiyunshu.com, port: 14672, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/上联 美国2 0.5x_37', server: sh.jiyunshu.com, port: 11021, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sh.jiyunshu.com}}
-  - {name: 'NAT/上联 美国3_38', server: sh.jiyunshu.com, port: 10102, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: sh.jiyunshu.com}}
-  - {name: 'NAT/AWS北京 美国4 解锁流媒体_39', server: 140.179.98.88, port: 14477, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/湘日隧道 美国4 Netflix US_40', server: cxcu.jiyunshu.com, port: 12861, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/AZHK 美国5_41', server: azhk1.sf66.cf, port: 20003, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/AWS北京 美国6 Netflix US_42', server: 140.179.98.88, port: 30937, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AWS北京 美国8 Netflix US_43', server: 140.179.98.88, port: 18811, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/湘日隧道 美国9 Netflix US_44', server: cxcu.jiyunshu.com, port: 58903, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/长沙 美国11 Netflix US 1x_45', server: cxcu.jiyunshu.com, port: 62350, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcu.jiyunshu.com}}
-  - {name: 'NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46', server: ah.jiyunshu.com, port: 61352, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
-  - {name: 'NAT/AWS北京 英国 Netflix GB 0.7x_47', server: 140.179.98.88, port: 12989, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/AZHK 法国_48', server: azhk3.sf66.cf, port: 32002, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/AZHK 瑞士_49', server: azhk1.sf66.cf, port: 20007, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/AZHK 南非_50', server: azhk1.sf66.cf, port: 20008, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.sf66.cf}}
-  - {name: 'NAT/AZHK TT土耳其 Steam_51', server: azhk3.sf66.cf, port: 32004, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.sf66.cf}}
-  - {name: 'NAT/AWS北京 印度2 Netflix IN_52', server: 140.179.98.88, port: 64588, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.179.98.88}}
-  - {name: 'NAT/长沙 越南 原生 解锁流媒体 1x_53', server: cxcm.jiyunshu.com, port: 58053, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cxcm.jiyunshu.com}}
-  - {name: '直连 回国CHN 山东Shandong_54', server: 58.56.34.149, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: '直连 香港游戏线路 ss 10x_55', server: 103.117.102.201, port: 23456, type: ss, cipher: chacha20-ietf-poly1305, password: ed6250f1-85c1-4743-8ab2-7acb0dce829d}
-  - {name: '直连 香港主力 HKT 首选_56', server: hkt.nkeo.top, port: 18577, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkt.nkeo.top}}
-  - {name: '直连 香港 主力 HKBN 首选_57', server: wtt.nkeo.top, port: 59647, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: wtt.nkeo.top}}
-  - {name: '直连 香港2 AZHK Nnko提供_58', server: 20.205.124.103, port: 28888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.205.124.103}}
-  - {name: '直连 香港3 HGC Netflix HK_59', server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
-  - {name: '直连 香港4 HGC Netflix HK_60', server: 223.18.21.129, port: 49806, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 223.18.21.129}}
-  - {name: '直连 香港5 30M 游戏线路 1x_61', server: 124.156.153.15, port: 15995, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 124.156.153.15}}
-  - {name: '直连 香港6 1M Netflix HK 80端口 1x_62', server: 8.210.55.79, port: 80, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}}
-  - {name: '直连 香港8 Netflix HK 1x_63', server: 101.32.26.213, port: 33333, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false}
-  - {name: '直连 香港9 DMIT Netflix HK 2x_64', server: 103.117.102.201, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.117.102.201}}
-  - {name: '直连/CN2 GIA 香港10 阿里云 HK_65', server: 47.243.67.117, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 47.243.67.117}}
-  - {name: '直连 香港11 AZ HK_66', server: 20.187.88.204, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.187.88.204}}
-  - {name: '直连 澳门 CTM Netflix MO_67', server: ctm.poloddns.xyz, port: 35553, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ctm.poloddns.xyz}}
-  - {name: '直连 马来西亚 Netflix MY_68', server: mlml1.yyyywe.top, port: 10281, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: mlml1.yyyywe.top}}
-  - {name: '直连 澳大利亚 0.7x 解锁流媒体_69', server: 3.106.142.132, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.106.142.132}}
-  - {name: '直连 雅加达 解锁流媒体 0.7x_70', server: 108.136.139.33, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 108.136.139.33}}
-  - {name: '直连 台湾主力 原生 HINET_71', server: hinet.ddns.us, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hinet.ddns.us}}
-  - {name: '直连 台湾1 谷歌云 80端口 特别快_72', server: 35.229.245.253, port: 80, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 35.229.245.253}}
-  - {name: '直连 台湾2 Netflix TW_73', server: tw1.yyyywe.top, port: 10561, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw1.yyyywe.top}}
-  - {name: '直连 台湾3 HINET 原生 家宽_74', server: tw01.lilyco.cc, port: 47780, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw01.lilyco.cc}}
-  - {name: '直连 韩国主力 春川 ARM Netflix Oracle_75', server: 152.69.228.146, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.69.228.146}}
-  - {name: '直连 韩国2 原生 Netflix KR_76', server: 132.226.232.119, port: 53301, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 132.226.232.119}}
-  - {name: '直连 韩国3 春川 ARM Netflix Oracle_77', server: 146.56.110.33, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 146.56.110.33}}
-  - {name: '直连 日本主力 大阪 ARM Netflix Oracle_78', server: 140.83.54.123, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 140.83.54.123}}
-  - {name: '直连 日本主力 So-net 原生_79', server: jp.node.qchwnd.moe, port: 49603, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp.node.qchwnd.moe}}
-  - {name: '直连 日本1 解锁流媒体 GreenCloud_80', server: 85.113.70.28, port: 18888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 85.113.70.28}}
-  - {name: '直连 日本2 软银 解锁流媒体 三网优化_81', server: 202.61.159.34, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.61.159.34}}
-  - {name: '直连 日本3 软银 解锁流媒体 三网优化_82', server: 202.61.159.118, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 202.61.159.118}}
-  - {name: '直连 日本5 Netflix JP 0.7x_83', server: 3.112.194.253, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.112.194.253}}
-  - {name: '直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84', server: 152.69.216.81, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.69.216.81}}
-  - {name: '直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85', server: 152.69.223.138, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.69.223.138}}
-  - {name: '直连 新加坡1 Netflix SG 0.7x_86', server: 18.141.180.10, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.141.180.10}}
-  - {name: '直连 新加坡2 NetflixSG_87', server: 103.83.156.89, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.83.156.89}}
-  - {name: '直连 新加坡3 Netflix SG_88', server: 128.199.75.23, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 128.199.75.23}}
-  - {name: '直连 荷兰_89', server: 178.62.224.119, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}}
-  - {name: '直连 美国主力 BGP 原生_90', server: 165.3.122.170, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 165.3.122.170}}
-  - {name: '直连 月抛aws 速度快 0.7x 解锁流媒体_91', server: 18.218.198.254, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: '两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92', server: 45.45.177.88, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.45.177.88}}
-  - {name: '直连 美国圣何塞 解锁流媒体 甲骨文_93', server: 129.159.36.48, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 129.159.36.48}}
-  - {name: '直连 美国主力二号_94', server: 199.19.226.178, port: 1234, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 199.19.226.178}}
-  - {name: '直连 美国1 解锁流媒体_95', server: 23.234.242.253, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.234.242.253}}
-  - {name: '直连 美国2 0x_96', server: 155.94.197.20, port: 11021, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 155.94.197.20}}
-  - {name: '直连 美国3 LINODE_97', server: 173.230.145.10, port: 10101, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.145.10}}
-  - {name: '直连 美国4 三网直连_98', server: 2.56.173.239, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 2.56.173.239}}
-  - {name: '直连 美国6 Netflix US_99', server: 45.11.92.50, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.11.92.50}}
-  - {name: '直连 美国8_100', server: 107.161.50.42, port: 22401, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.161.50.42}}
-  - {name: '直连 阿联酋迪拜 ARM Netflix Oracle_101', server: 193.123.95.114, port: 9999, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}}
-  - {name: '直连 英国 Netflix GB 0.7x_102', server: 18.130.172.237, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.130.172.237}}
-  - {name: '直连 印度2 Netflix IN_103', server: 103.150.30.239, port: 11201, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.150.30.239}}
-  - {name: '直连 俄罗斯_104', server: 185.246.154.6, port: 56751, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 185.246.154.6}}
-  - {name: '直连 土耳其 Steam_105', server: 185.181.209.109, port: 12322, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 185.181.209.109}}
-  - {name: '直连 南非_106', server: 169.239.129.33, port: 12501, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 169.239.129.33}}
-  - {name: '直连 越南 原生 解锁流媒体 1x_107', server: 180.93.172.159, port: 21888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 180.93.172.159}}
-  - {name: '直连 卢森堡 跑BT 0x_108', server: 104.244.79.119, port: 80, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 104.244.79.119}}
-  - {name: '直连/反代优选 卢森堡 跑BT CF优化 0x_109', server: cf.kycc-nodes.bike, port: 443, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: '香港AZ2_1', server: st.ddnspro.cn, port: 28888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: st.ddnspro.cn}}
+  - {name: '香港3 HGC 9_2', server: gy.c6.nkeo.top, port: 45117, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gy.c6.nkeo.top}}
+  - {name: '新加坡 ARM 2_3', server: ah.jiyunshu.com, port: 27120, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
+  - {name: '新加坡 ARM 1_4', server: ah.jiyunshu.com, port: 61531, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah.jiyunshu.com}}
+  - {name: '香港 HKT 6_5', server: hkt.nkeo.top, port: 18577, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hkt.nkeo.top}}
+  - {name: '香港AZ1_6', server: 20.205.124.103, port: 28888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 20.205.124.103}}
+  - {name: '香港3 HGC 8_7', server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}}
+  - {name: '香港8_8', server: 101.32.26.213, port: 33333, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '香港 DMIT 4_9', server: 103.117.102.201, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.117.102.201}}
+  - {name: 'GIA 香港1 阿里云_10', server: 47.243.67.117, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 47.243.67.117}}
+  - {name: '香港2_11', server: 2.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港3_12', server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港4_13', server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港1_14', server: 2.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港5_15', server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港6_16', server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: '香港公益无限流量_17', server: free.vproxy.us, port: 443, type: trojan, password: 2be8ab40-e56f-4fe0-b787-fe0908dc9169, sni: free.vproxy.us}
+  - {name: '旺财香港1_18', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '旺财香港2_19', server: 118.107.244.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '旺财香港3_20', server: 118.107.244.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '旺财香港4_21', server: 118.107.244.110, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '旺财香港5_22', server: 118.107.244.110, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '旺财香港6_23', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '旺财香港7_24', server: 118.107.244.110, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '旺财香港8_25', server: 118.107.244.110, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '旺财香港9_26', server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港10_27', server: 118.107.244.110, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '旺财香港11_28', server: 118.107.244.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '旺财香港12_29', server: 118.107.244.110, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港13_30', server: 118.107.244.110, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '旺财香港14_31', server: 118.107.244.110, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港15_32', server: 118.107.244.110, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '旺财香港16_33', server: 118.107.244.110, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '旺财香港17_34', server: 118.107.244.110, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '旺财香港18_35', server: 118.107.244.110, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港19_36', server: 118.107.244.110, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港20_37', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港21_38', server: 118.107.244.110, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '旺财香港22_39', server: 118.107.244.110, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '旺财香港23_40', server: 118.107.244.110, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '旺财香港24_41', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '旺财香港25_42', server: 118.107.244.110, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '旺财香港26_43', server: 118.107.244.110, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '旺财香港27_44', server: 118.107.244.112, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '旺财香港28_45', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '旺财香港29_46', server: 118.107.244.112, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港30_47', server: 118.107.244.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '旺财香港31_48', server: 118.107.244.112, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '旺财香港32_49', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '旺财香港33_50', server: 118.107.244.112, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '旺财香港34_51', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '旺财香港35_52', server: 118.107.244.112, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '旺财香港36_53', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港37_54', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '旺财香港38_55', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '旺财香港39_56', server: 118.107.244.112, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '旺财香港40_57', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '旺财香港41_58', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '旺财香港42_59', server: 118.107.244.112, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '旺财香港43_60', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '旺财香港44_61', server: 118.107.244.112, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港45_62', server: 118.107.244.112, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '旺财香港46_63', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港47_64', server: 118.107.244.112, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港48_65', server: 118.107.244.112, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '旺财香港49_66', server: 118.107.244.112, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '旺财香港50_67', server: 118.107.244.112, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '旺财香港51_68', server: 118.107.244.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '旺财香港52_69', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '旺财香港53_70', server: 118.107.244.112, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '旺财香港54_71', server: 118.107.244.112, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '香港佛山中转_72', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: '香港广州中转_73', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: '香港佛山中转1_74', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: '香港广州中转1_75', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: 'SC香港_76', server: scloudhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
+  - {name: 'Azure香港_77', server: chiyikouazhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: chiyikouazhk.ednovas.net}}
+  - {name: 'AWSLS新加坡_78', server: awslssg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: awslssg2.ednovas.net}}
+  - {name: 'WH新加坡_79', server: whsg.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
+  - {name: '广港新加坡_80', server: gy.b2.nkeo.top, port: 45215, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '广港WH新加坡_81', server: gy.a8.nkeo.top, port: 45613, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
+  - {name: 'Do新加坡_82', server: dosg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
+  - {name: '长沙Do新加坡_83', server: cxcm.jiyunshu.com, port: 20163, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
+  - {name: 'Do新加坡2_84', server: dosg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
+  - {name: '长沙Do新加坡2_85', server: cxcm.jiyunshu.com, port: 58232, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
+  - {name: 'GC新加坡_86', server: greencloudsg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
+  - {name: '广港GC新加坡_87', server: gy.a8.nkeo.top, port: 45618, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
+  - {name: 'Oracle新加坡ARM_88', server: oraclesgarm.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
+  - {name: '广港Oracle新加坡ARM_89', server: gy.c6.nkeo.top, port: 45301, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
+  - {name: 'HKT香港_90', server: anyhkhkt.dynamic-dns.net, port: 10018, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '广港HKT香港_91', server: gy.c6.nkeo.top, port: 45700, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '安徽SC香港_92', server: ah.jiyunshu.com, port: 56815, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
+  - {name: 'CMI香港0_93', server: hkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
+  - {name: '广港CMI香港0_94', server: gy.a8.nkeo.top, port: 45338, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
+  - {name: 'DY CMI香港3_95', server: dyhkcmi.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
+  - {name: '广港DY CMI香港3_96', server: gy.a8.nkeo.top, port: 45406, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
+  - {name: 'DY CMI香港4_97', server: dyhkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
+  - {name: '广港DY CMI香港4_98', server: gy.a8.nkeo.top, port: 45164, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
+  - {name: 'AZ香港1_99', server: azhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
+  - {name: '佛港AZ香港1_100', server: fs.01.nkeo.top, port: 45093, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
+  - {name: 'AZ香港2_101', server: azhk2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
+  - {name: '佛港AZ香港2_102', server: fs.01.nkeo.top, port: 45107, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
+  - {name: 'AZ香港3_103', server: azhk3.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
+  - {name: '佛港AZ香港3_104', server: fs.01.nkeo.top, port: 45113, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
+  - {name: 'AZ香港4_105', server: az.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
+  - {name: '佛港AZ香港4_106', server: fs.01.nkeo.top, port: 45114, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
+  - {name: 'AZ香港F2S_107', server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}}
+  - {name: 'AZ香港F8S_108', server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -930,115 +922,114 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_10x计费/IPLC/广港 IPLC游戏线路 香港 10x ss_1
-      - n_10x计费/IPLC/沪港 IPLC游戏线路 香港 10x ss_2
-      - n_10x计费/IPLC/京港 IPLC游戏线路 香港 10x ss_3
-      - NAT/AZHK 香港主力 HKT 解锁流媒体_4
-      - NAT/湘港隧道 香港主力 HKT 解锁流媒体_5
-      - NAT/AZHK 香港主力 HKBN 解锁流媒体_6
-      - NAT/湘港隧道 香港主力 HKBN 解锁流媒体_7
-      - NAT/汕头 香港2 AZHK Nnko提供_8
-      - NAT/广港隧道 香港3 HGC Netflix HK_9
-      - NAT/广港隧道 香港4 HGC 原生_10
-      - NAT/皖港隧道 香港9 DMIT 2x_11
-      - NAT/长沙 香港11 AZ Netflix HK_12
-      - NAT/皖移 马来西亚 Netflix MY_13
-      - NAT/长沙 雅加达 解锁流媒体 0.7x_14
-      - NAT/长沙 台湾主力 原生 HINET 解锁流媒体_15
-      - NAT/AZHK 台湾1 GCP TW_16
-      - NAT/皖移 台湾2 Netflix TW_17
-      - NAT/AZHK 台湾3 HINET 原生 家宽_18
-      - NAT/长沙 澳门 CTM Netflix MO_19
-      - NAT/AWS北京 韩国主力 春川 ARM Netflix Oracle_20
-      - NAT/AWS北京 韩国1 原生 Netflix KR_21
-      - NAT/AWS北京 韩国2 解锁流媒体_22
-      - NAT/AWS北京 日本主力 大阪 ARM Netflix Oracle_23
-      - NAT/AWS北京 日本1 解锁流媒体 GreenCloud_24
-      - NAT/AWS北京 日本2 软银 解锁流媒体 三网优化_25
-      - NAT/AZHK 日本4 高速 可解流媒体_26
-      - NAT/AWS北京 日本5 可解流媒体 0.7x_27
-      - NAT/皖移 新加坡主力 ARM 解锁流媒体 Oracle_28
-      - NAT/皖移 新加坡主力2 ARM 解锁流媒体 Oracle_29
-      - NAT/长沙 新加坡1 解锁流媒体 0.7x_30
-      - NAT/AZHK 新加坡2_31
-      - NAT/长沙 新加坡3 Netflix SG_32
-      - NAT/AZHK 新加坡4_33
-      - NAT/长沙 美国主力 BGP 原生_34
-      - NAT/上海 美国主力2_35
-      - NAT/长沙 美国1 解锁流媒体_36
-      - NAT/上联 美国2 0.5x_37
-      - NAT/上联 美国3_38
-      - NAT/AWS北京 美国4 解锁流媒体_39
-      - NAT/湘日隧道 美国4 Netflix US_40
-      - NAT/AZHK 美国5_41
-      - NAT/AWS北京 美国6 Netflix US_42
-      - NAT/AWS北京 美国8 Netflix US_43
-      - NAT/湘日隧道 美国9 Netflix US_44
-      - NAT/长沙 美国11 Netflix US 1x_45
-      - NAT/皖移 阿联酋迪拜 ARM Netflix Oracle_46
-      - NAT/AWS北京 英国 Netflix GB 0.7x_47
-      - NAT/AZHK 法国_48
-      - NAT/AZHK 瑞士_49
-      - NAT/AZHK 南非_50
-      - NAT/AZHK TT土耳其 Steam_51
-      - NAT/AWS北京 印度2 Netflix IN_52
-      - NAT/长沙 越南 原生 解锁流媒体 1x_53
-      - 直连 回国CHN 山东Shandong_54
-      - 直连 香港游戏线路 ss 10x_55
-      - 直连 香港主力 HKT 首选_56
-      - 直连 香港 主力 HKBN 首选_57
-      - 直连 香港2 AZHK Nnko提供_58
-      - 直连 香港3 HGC Netflix HK_59
-      - 直连 香港4 HGC Netflix HK_60
-      - 直连 香港5 30M 游戏线路 1x_61
-      - 直连 香港6 1M Netflix HK 80端口 1x_62
-      - 直连 香港8 Netflix HK 1x_63
-      - 直连 香港9 DMIT Netflix HK 2x_64
-      - 直连/CN2 GIA 香港10 阿里云 HK_65
-      - 直连 香港11 AZ HK_66
-      - 直连 澳门 CTM Netflix MO_67
-      - 直连 马来西亚 Netflix MY_68
-      - 直连 澳大利亚 0.7x 解锁流媒体_69
-      - 直连 雅加达 解锁流媒体 0.7x_70
-      - 直连 台湾主力 原生 HINET_71
-      - 直连 台湾1 谷歌云 80端口 特别快_72
-      - 直连 台湾2 Netflix TW_73
-      - 直连 台湾3 HINET 原生 家宽_74
-      - 直连 韩国主力 春川 ARM Netflix Oracle_75
-      - 直连 韩国2 原生 Netflix KR_76
-      - 直连 韩国3 春川 ARM Netflix Oracle_77
-      - 直连 日本主力 大阪 ARM Netflix Oracle_78
-      - 直连 日本主力 So-net 原生_79
-      - 直连 日本1 解锁流媒体 GreenCloud_80
-      - 直连 日本2 软银 解锁流媒体 三网优化_81
-      - 直连 日本3 软银 解锁流媒体 三网优化_82
-      - 直连 日本5 Netflix JP 0.7x_83
-      - 直连 新加坡主力 ARM 解锁流媒体 Oracle 1x_84
-      - 直连 新加坡主力2 ARM 解锁流媒体 Oracle 1x_85
-      - 直连 新加坡1 Netflix SG 0.7x_86
-      - 直连 新加坡2 NetflixSG_87
-      - 直连 新加坡3 Netflix SG_88
-      - 直连 荷兰_89
-      - 直连 美国主力 BGP 原生_90
-      - 直连 月抛aws 速度快 0.7x 解锁流媒体_91
-      - 两倍计费/CN2 GIA 美国 原生 CN2 GIA 2x_92
-      - 直连 美国圣何塞 解锁流媒体 甲骨文_93
-      - 直连 美国主力二号_94
-      - 直连 美国1 解锁流媒体_95
-      - 直连 美国2 0x_96
-      - 直连 美国3 LINODE_97
-      - 直连 美国4 三网直连_98
-      - 直连 美国6 Netflix US_99
-      - 直连 美国8_100
-      - 直连 阿联酋迪拜 ARM Netflix Oracle_101
-      - 直连 英国 Netflix GB 0.7x_102
-      - 直连 印度2 Netflix IN_103
-      - 直连 俄罗斯_104
-      - 直连 土耳其 Steam_105
-      - 直连 南非_106
-      - 直连 越南 原生 解锁流媒体 1x_107
-      - 直连 卢森堡 跑BT 0x_108
-      - 直连/反代优选 卢森堡 跑BT CF优化 0x_109
+      - 香港AZ2_1
+      - 香港3 HGC 9_2
+      - 新加坡 ARM 2_3
+      - 新加坡 ARM 1_4
+      - 香港 HKT 6_5
+      - 香港AZ1_6
+      - 香港3 HGC 8_7
+      - 香港8_8
+      - 香港 DMIT 4_9
+      - GIA 香港1 阿里云_10
+      - 香港2_11
+      - 香港3_12
+      - 香港4_13
+      - 香港1_14
+      - 香港5_15
+      - 香港6_16
+      - 香港公益无限流量_17
+      - 旺财香港1_18
+      - 旺财香港2_19
+      - 旺财香港3_20
+      - 旺财香港4_21
+      - 旺财香港5_22
+      - 旺财香港6_23
+      - 旺财香港7_24
+      - 旺财香港8_25
+      - 旺财香港9_26
+      - 旺财香港10_27
+      - 旺财香港11_28
+      - 旺财香港12_29
+      - 旺财香港13_30
+      - 旺财香港14_31
+      - 旺财香港15_32
+      - 旺财香港16_33
+      - 旺财香港17_34
+      - 旺财香港18_35
+      - 旺财香港19_36
+      - 旺财香港20_37
+      - 旺财香港21_38
+      - 旺财香港22_39
+      - 旺财香港23_40
+      - 旺财香港24_41
+      - 旺财香港25_42
+      - 旺财香港26_43
+      - 旺财香港27_44
+      - 旺财香港28_45
+      - 旺财香港29_46
+      - 旺财香港30_47
+      - 旺财香港31_48
+      - 旺财香港32_49
+      - 旺财香港33_50
+      - 旺财香港34_51
+      - 旺财香港35_52
+      - 旺财香港36_53
+      - 旺财香港37_54
+      - 旺财香港38_55
+      - 旺财香港39_56
+      - 旺财香港40_57
+      - 旺财香港41_58
+      - 旺财香港42_59
+      - 旺财香港43_60
+      - 旺财香港44_61
+      - 旺财香港45_62
+      - 旺财香港46_63
+      - 旺财香港47_64
+      - 旺财香港48_65
+      - 旺财香港49_66
+      - 旺财香港50_67
+      - 旺财香港51_68
+      - 旺财香港52_69
+      - 旺财香港53_70
+      - 旺财香港54_71
+      - 香港佛山中转_72
+      - 香港广州中转_73
+      - 香港佛山中转1_74
+      - 香港广州中转1_75
+      - SC香港_76
+      - Azure香港_77
+      - AWSLS新加坡_78
+      - WH新加坡_79
+      - 广港新加坡_80
+      - 广港WH新加坡_81
+      - Do新加坡_82
+      - 长沙Do新加坡_83
+      - Do新加坡2_84
+      - 长沙Do新加坡2_85
+      - GC新加坡_86
+      - 广港GC新加坡_87
+      - Oracle新加坡ARM_88
+      - 广港Oracle新加坡ARM_89
+      - HKT香港_90
+      - 广港HKT香港_91
+      - 安徽SC香港_92
+      - CMI香港0_93
+      - 广港CMI香港0_94
+      - DY CMI香港3_95
+      - 广港DY CMI香港3_96
+      - DY CMI香港4_97
+      - 广港DY CMI香港4_98
+      - AZ香港1_99
+      - 佛港AZ香港1_100
+      - AZ香港2_101
+      - 佛港AZ香港2_102
+      - AZ香港3_103
+      - 佛港AZ香港3_104
+      - AZ香港4_105
+      - 佛港AZ香港4_106
+      - AZ香港F2S_107
+      - AZ香港F8S_108
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
