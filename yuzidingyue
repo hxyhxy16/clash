@@ -48,86 +48,58 @@ proxies:
   - {name: '旺财香港24_41', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '旺财香港25_42', server: 118.107.244.110, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: '旺财香港26_43', server: 118.107.244.110, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '旺财香港27_44', server: 118.107.244.112, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '旺财香港28_45', server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '旺财香港29_46', server: 118.107.244.112, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港30_47', server: 118.107.244.112, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '旺财香港31_48', server: 118.107.244.112, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '旺财香港32_49', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '旺财香港33_50', server: 118.107.244.112, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '旺财香港34_51', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '旺财香港35_52', server: 118.107.244.112, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '旺财香港36_53', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港37_54', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '旺财香港38_55', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '旺财香港39_56', server: 118.107.244.112, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '旺财香港40_57', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '旺财香港41_58', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '旺财香港42_59', server: 118.107.244.112, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '旺财香港43_60', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '旺财香港44_61', server: 118.107.244.112, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港45_62', server: 118.107.244.112, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '旺财香港46_63', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港47_64', server: 118.107.244.112, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港48_65', server: 118.107.244.112, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '旺财香港49_66', server: 118.107.244.112, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '旺财香港50_67', server: 118.107.244.112, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '旺财香港51_68', server: 118.107.244.112, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '旺财香港52_69', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '旺财香港53_70', server: 118.107.244.112, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '旺财香港54_71', server: 118.107.244.112, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '香港佛山中转_72', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}}
-  - {name: '香港广州中转_73', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}}
-  - {name: '香港佛山中转1_74', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: fosyd.tuboshu.space}}
-  - {name: '香港广州中转1_75', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: gzyd.tuboshu.space}}
-  - {name: 'SC香港_76', server: scloudhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
-  - {name: 'Azure香港_77', server: chiyikouazhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: chiyikouazhk.ednovas.net}}
-  - {name: 'AWSLS新加坡_78', server: awslssg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: awslssg2.ednovas.net}}
-  - {name: 'WH新加坡_79', server: whsg.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
-  - {name: '广港新加坡_80', server: gy.b2.nkeo.top, port: 45215, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: '广港WH新加坡_81', server: gy.a8.nkeo.top, port: 45613, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
-  - {name: 'Do新加坡_82', server: dosg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
-  - {name: '长沙Do新加坡_83', server: cxcm.jiyunshu.com, port: 20163, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
-  - {name: 'Do新加坡2_84', server: dosg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
-  - {name: '长沙Do新加坡2_85', server: cxcm.jiyunshu.com, port: 58232, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
-  - {name: 'GC新加坡_86', server: greencloudsg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
-  - {name: '广港GC新加坡_87', server: gy.a8.nkeo.top, port: 45618, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
-  - {name: 'Oracle新加坡ARM_88', server: oraclesgarm.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
-  - {name: '广港Oracle新加坡ARM_89', server: gy.c6.nkeo.top, port: 45301, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
-  - {name: 'HKT香港_90', server: anyhkhkt.dynamic-dns.net, port: 10018, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: '广港HKT香港_91', server: gy.c6.nkeo.top, port: 45700, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
-  - {name: '安徽SC香港_92', server: ah.jiyunshu.com, port: 56815, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
-  - {name: 'CMI香港0_93', server: hkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
-  - {name: '广港CMI香港0_94', server: gy.a8.nkeo.top, port: 45338, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
-  - {name: 'DY CMI香港3_95', server: dyhkcmi.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
-  - {name: '广港DY CMI香港3_96', server: gy.a8.nkeo.top, port: 45406, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
-  - {name: 'DY CMI香港4_97', server: dyhkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
-  - {name: '广港DY CMI香港4_98', server: gy.a8.nkeo.top, port: 45164, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
-  - {name: 'AZ香港1_99', server: azhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
-  - {name: '佛港AZ香港1_100', server: fs.01.nkeo.top, port: 45093, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
-  - {name: 'AZ香港2_101', server: azhk2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
-  - {name: '佛港AZ香港2_102', server: fs.01.nkeo.top, port: 45107, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
-  - {name: 'AZ香港3_103', server: azhk3.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
-  - {name: '佛港AZ香港3_104', server: fs.01.nkeo.top, port: 45113, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
-  - {name: 'AZ香港4_105', server: az.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
-  - {name: '佛港AZ香港4_106', server: fs.01.nkeo.top, port: 45114, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
-  - {name: 'AZ香港F2S_107', server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}}
-  - {name: 'AZ香港F8S_108', server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}}
-  - {name: '香港1 免费节点_109', server: hzcu.rymv2rayssl.xyz, port: 44612, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
-  - {name: '香港3 免费节点_110', server: hzcu.rymv2rayssl.xyz, port: 44613, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
-  - {name: 'HK香港1_111', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
-  - {name: 'HK香港2_112', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'HK香港3_113', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
-  - {name: 'HK香港4_114', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '香港01 稳_115', server: v21.88host.buzz, port: 18025, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
-  - {name: '香港02 稳_116', server: v22.88host.buzz, port: 18026, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
-  - {name: '香港03 稳_117', server: v23.88host.buzz, port: 18027, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
-  - {name: '香港04 稳_118', server: v24.88host.buzz, port: 18028, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
-  - {name: 'HK01_119', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: f11ea2cc-0131-43fe-8f7b-7a2d552c8762}
-  - {name: 'HK02_120', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049}
-  - {name: 'HK03_121', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 564b5925-d12e-4021-8bd1-ec9e843d73da}
-  - {name: 'HK04_122', server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 4e06bb48-9854-406b-ad0d-66952abf3015}
-  - {name: '香港 1 测试_123', server: D7Bbwi;N6@120.232.82.174, port: 1000, type: ss, cipher: aes-128-gcm, password: g95R}
+  - {name: '香港佛山中转_44', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: '香港广州中转_45', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: '香港佛山中转1_46', server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: fosyd.tuboshu.space}}
+  - {name: '香港广州中转1_47', server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /thkyd, ws-headers: {Host: gzyd.tuboshu.space}}
+  - {name: 'SC香港_48', server: scloudhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
+  - {name: 'Azure香港_49', server: chiyikouazhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: chiyikouazhk.ednovas.net}}
+  - {name: 'AWSLS新加坡_50', server: awslssg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: awslssg2.ednovas.net}}
+  - {name: 'WH新加坡_51', server: whsg.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
+  - {name: '广港新加坡_52', server: gy.b2.nkeo.top, port: 45215, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '广港WH新加坡_53', server: gy.a8.nkeo.top, port: 45613, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: whsg.ednovas.net}}
+  - {name: 'Do新加坡_54', server: dosg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
+  - {name: '长沙Do新加坡_55', server: cxcm.jiyunshu.com, port: 20163, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg1.ednovas.net}}
+  - {name: 'Do新加坡2_56', server: dosg2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
+  - {name: '长沙Do新加坡2_57', server: cxcm.jiyunshu.com, port: 58232, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dosg2.ednovas.net}}
+  - {name: 'GC新加坡_58', server: greencloudsg1.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
+  - {name: '广港GC新加坡_59', server: gy.a8.nkeo.top, port: 45618, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: greencloudsg1.ednovas.net}}
+  - {name: 'Oracle新加坡ARM_60', server: oraclesgarm.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
+  - {name: '广港Oracle新加坡ARM_61', server: gy.c6.nkeo.top, port: 45301, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: oraclesgarm.ednovas.net}}
+  - {name: 'HKT香港_62', server: anyhkhkt.dynamic-dns.net, port: 10018, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '广港HKT香港_63', server: gy.c6.nkeo.top, port: 45700, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, network: ws}
+  - {name: '安徽SC香港_64', server: ah.jiyunshu.com, port: 56815, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}}
+  - {name: 'CMI香港0_65', server: hkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
+  - {name: '广港CMI香港0_66', server: gy.a8.nkeo.top, port: 45338, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}}
+  - {name: 'DY CMI香港3_67', server: dyhkcmi.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
+  - {name: '广港DY CMI香港3_68', server: gy.a8.nkeo.top, port: 45406, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}}
+  - {name: 'DY CMI香港4_69', server: dyhkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
+  - {name: '广港DY CMI香港4_70', server: gy.a8.nkeo.top, port: 45164, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}}
+  - {name: 'AZ香港1_71', server: azhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
+  - {name: '佛港AZ香港1_72', server: fs.01.nkeo.top, port: 45093, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk.ednovas.net}}
+  - {name: 'AZ香港2_73', server: azhk2.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
+  - {name: '佛港AZ香港2_74', server: fs.01.nkeo.top, port: 45107, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}}
+  - {name: 'AZ香港3_75', server: azhk3.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
+  - {name: '佛港AZ香港3_76', server: fs.01.nkeo.top, port: 45113, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}}
+  - {name: 'AZ香港4_77', server: az.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
+  - {name: '佛港AZ香港4_78', server: fs.01.nkeo.top, port: 45114, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
+  - {name: 'AZ香港F2S_79', server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}}
+  - {name: 'AZ香港F8S_80', server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}}
+  - {name: '香港1 免费节点_81', server: hzcu.rymv2rayssl.xyz, port: 44612, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
+  - {name: '香港3 免费节点_82', server: hzcu.rymv2rayssl.xyz, port: 44613, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
+  - {name: 'HK香港1_83', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: 'HK香港2_84', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'HK香港3_85', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'HK香港4_86', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '香港01 稳_87', server: v21.88host.buzz, port: 18025, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
+  - {name: '香港02 稳_88', server: v22.88host.buzz, port: 18026, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: '香港03 稳_89', server: v23.88host.buzz, port: 18027, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: '香港04 稳_90', server: v24.88host.buzz, port: 18028, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: 'HK01_91', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: f11ea2cc-0131-43fe-8f7b-7a2d552c8762}
+  - {name: 'HK02_92', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049}
+  - {name: 'HK03_93', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 564b5925-d12e-4021-8bd1-ec9e843d73da}
+  - {name: 'HK04_94', server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 4e06bb48-9854-406b-ad0d-66952abf3015}
+  - {name: '香港 1 测试_95', server: D7Bbwi;N6@120.232.82.174, port: 1000, type: ss, cipher: aes-128-gcm, password: g95R}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -177,86 +149,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -305,86 +249,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -434,86 +350,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -562,86 +450,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -690,86 +550,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: 📲 电报信息
     type: select
     proxies:
@@ -818,86 +650,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -947,86 +751,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1085,86 +861,58 @@ proxy-groups:
       - 旺财香港24_41
       - 旺财香港25_42
       - 旺财香港26_43
-      - 旺财香港27_44
-      - 旺财香港28_45
-      - 旺财香港29_46
-      - 旺财香港30_47
-      - 旺财香港31_48
-      - 旺财香港32_49
-      - 旺财香港33_50
-      - 旺财香港34_51
-      - 旺财香港35_52
-      - 旺财香港36_53
-      - 旺财香港37_54
-      - 旺财香港38_55
-      - 旺财香港39_56
-      - 旺财香港40_57
-      - 旺财香港41_58
-      - 旺财香港42_59
-      - 旺财香港43_60
-      - 旺财香港44_61
-      - 旺财香港45_62
-      - 旺财香港46_63
-      - 旺财香港47_64
-      - 旺财香港48_65
-      - 旺财香港49_66
-      - 旺财香港50_67
-      - 旺财香港51_68
-      - 旺财香港52_69
-      - 旺财香港53_70
-      - 旺财香港54_71
-      - 香港佛山中转_72
-      - 香港广州中转_73
-      - 香港佛山中转1_74
-      - 香港广州中转1_75
-      - SC香港_76
-      - Azure香港_77
-      - AWSLS新加坡_78
-      - WH新加坡_79
-      - 广港新加坡_80
-      - 广港WH新加坡_81
-      - Do新加坡_82
-      - 长沙Do新加坡_83
-      - Do新加坡2_84
-      - 长沙Do新加坡2_85
-      - GC新加坡_86
-      - 广港GC新加坡_87
-      - Oracle新加坡ARM_88
-      - 广港Oracle新加坡ARM_89
-      - HKT香港_90
-      - 广港HKT香港_91
-      - 安徽SC香港_92
-      - CMI香港0_93
-      - 广港CMI香港0_94
-      - DY CMI香港3_95
-      - 广港DY CMI香港3_96
-      - DY CMI香港4_97
-      - 广港DY CMI香港4_98
-      - AZ香港1_99
-      - 佛港AZ香港1_100
-      - AZ香港2_101
-      - 佛港AZ香港2_102
-      - AZ香港3_103
-      - 佛港AZ香港3_104
-      - AZ香港4_105
-      - 佛港AZ香港4_106
-      - AZ香港F2S_107
-      - AZ香港F8S_108
-      - 香港1 免费节点_109
-      - 香港3 免费节点_110
-      - HK香港1_111
-      - HK香港2_112
-      - HK香港3_113
-      - HK香港4_114
-      - 香港01 稳_115
-      - 香港02 稳_116
-      - 香港03 稳_117
-      - 香港04 稳_118
-      - HK01_119
-      - HK02_120
-      - HK03_121
-      - HK04_122
-      - 香港 1 测试_123
+      - 香港佛山中转_44
+      - 香港广州中转_45
+      - 香港佛山中转1_46
+      - 香港广州中转1_47
+      - SC香港_48
+      - Azure香港_49
+      - AWSLS新加坡_50
+      - WH新加坡_51
+      - 广港新加坡_52
+      - 广港WH新加坡_53
+      - Do新加坡_54
+      - 长沙Do新加坡_55
+      - Do新加坡2_56
+      - 长沙Do新加坡2_57
+      - GC新加坡_58
+      - 广港GC新加坡_59
+      - Oracle新加坡ARM_60
+      - 广港Oracle新加坡ARM_61
+      - HKT香港_62
+      - 广港HKT香港_63
+      - 安徽SC香港_64
+      - CMI香港0_65
+      - 广港CMI香港0_66
+      - DY CMI香港3_67
+      - 广港DY CMI香港3_68
+      - DY CMI香港4_69
+      - 广港DY CMI香港4_70
+      - AZ香港1_71
+      - 佛港AZ香港1_72
+      - AZ香港2_73
+      - 佛港AZ香港2_74
+      - AZ香港3_75
+      - 佛港AZ香港3_76
+      - AZ香港4_77
+      - 佛港AZ香港4_78
+      - AZ香港F2S_79
+      - AZ香港F8S_80
+      - 香港1 免费节点_81
+      - 香港3 免费节点_82
+      - HK香港1_83
+      - HK香港2_84
+      - HK香港3_85
+      - HK香港4_86
+      - 香港01 稳_87
+      - 香港02 稳_88
+      - 香港03 稳_89
+      - 香港04 稳_90
+      - HK01_91
+      - HK02_92
+      - HK03_93
+      - HK04_94
+      - 香港 1 测试_95
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
