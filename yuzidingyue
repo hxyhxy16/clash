@@ -113,6 +113,21 @@ proxies:
   - {name: '佛港AZ香港4_106', server: fs.01.nkeo.top, port: 45114, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}}
   - {name: 'AZ香港F2S_107', server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}}
   - {name: 'AZ香港F8S_108', server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}}
+  - {name: '香港1 免费节点_109', server: hzcu.rymv2rayssl.xyz, port: 44612, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
+  - {name: '香港3 免费节点_110', server: hzcu.rymv2rayssl.xyz, port: 44613, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}}
+  - {name: 'HK香港1_111', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}}
+  - {name: 'HK香港2_112', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: 'HK香港3_113', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 'HK香港4_114', server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp}
+  - {name: '香港01 稳_115', server: v21.88host.buzz, port: 18025, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v21.88host.buzz}}
+  - {name: '香港02 稳_116', server: v22.88host.buzz, port: 18026, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v22.88host.buzz}}
+  - {name: '香港03 稳_117', server: v23.88host.buzz, port: 18027, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v23.88host.buzz}}
+  - {name: '香港04 稳_118', server: v24.88host.buzz, port: 18028, type: vmess, uuid: 413d33f4-61fa-3fae-b0af-86a2b85a3c42, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}}
+  - {name: 'HK01_119', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: f11ea2cc-0131-43fe-8f7b-7a2d552c8762}
+  - {name: 'HK02_120', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049}
+  - {name: 'HK03_121', server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 564b5925-d12e-4021-8bd1-ec9e843d73da}
+  - {name: 'HK04_122', server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 4e06bb48-9854-406b-ad0d-66952abf3015}
+  - {name: '香港 1 测试_123', server: D7Bbwi;N6@120.232.82.174, port: 1000, type: ss, cipher: aes-128-gcm, password: g95R}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -227,6 +242,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -340,6 +370,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -454,6 +499,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -567,6 +627,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -680,6 +755,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: 📲 电报信息
     type: select
     proxies:
@@ -793,6 +883,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -907,6 +1012,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1030,6 +1150,21 @@ proxy-groups:
       - 佛港AZ香港4_106
       - AZ香港F2S_107
       - AZ香港F8S_108
+      - 香港1 免费节点_109
+      - 香港3 免费节点_110
+      - HK香港1_111
+      - HK香港2_112
+      - HK香港3_113
+      - HK香港4_114
+      - 香港01 稳_115
+      - 香港02 稳_116
+      - 香港03 稳_117
+      - 香港04 稳_118
+      - HK01_119
+      - HK02_120
+      - HK03_121
+      - HK04_122
+      - 香港 1 测试_123
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
