@@ -89,8 +89,8 @@ proxies:
   - {name: 广港 AZ香港4, server: gy.c6.nkeo.top, port: 45654, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}, udp: true}
   - {name: AZ香港F2S, server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}, udp: true}
   - {name: AZ香港F8S, server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}, udp: true}
-  - {name: 香港|BGP中转|HGC|1.2x, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港|皖港隧道|HGC|1.5x, server: ahyd.foom.cc, port: 54733, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: ahyd.foom.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港|BGP中转|HGC|1.2x 流量1T, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港|皖港隧道|HGC|1.5x 流量1T, server: ahyd.foom.cc, port: 54733, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: ahyd.foom.cc, skip-cert-verify: true, udp: true}
   - {name: 番茄 30G 香港 F21 直连, server: hkfq.ga, port: 443, type: vmess, uuid: d4088566-9b6d-348c-ba05-2ed5dc6f5048, alterId: 21, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /21, ws-headers: {Host: hkfq.ga}, udp: true}
   - {name: 番茄 30G  香港 F22, server: hkfq.ml, port: 10022, type: vmess, uuid: d4088566-9b6d-348c-ba05-2ed5dc6f5048, alterId: 22, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /a22, ws-headers: {Host: hkfq.ml}, udp: true}
   - {name: 50G流量  HK01, server: gdgz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
@@ -103,6 +103,11 @@ proxies:
   - {name: 50G流量  HK09, server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK05, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK10, server: hz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
+  - {name: 香港1|试用  裤佬, server: 120.197.85.22, port: 45668, type: ss, cipher: chacha20-ietf-poly1305, password: ed6e4242-ef78-4020-a04d-cdd0a275cb01, udp: true}
+  - {name: 香港2|试用 裤佬, server: 120.197.85.22, port: 45669, type: ss, cipher: chacha20-ietf-poly1305, password: ed6e4242-ef78-4020-a04d-cdd0a275cb01, udp: true}
+  - {name: 香港 HGC 2  跨越300G, server: shadowmoon.ddnsfree.com, port: 21888, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shadowmoon.ddnsfree.com}, udp: true}
+  - {name: 香港3 HGC 跨越300G, server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}, udp: true}
+  - {name: 香港6 80端口 跨越300G, server: 8.210.55.79, port: 80, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -193,8 +198,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -207,6 +212,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -296,8 +306,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -310,6 +320,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -400,8 +415,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -414,6 +429,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -516,8 +536,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -530,6 +550,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -612,10 +637,15 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -706,8 +736,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -720,6 +750,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: 📲 电报信息
     type: select
     proxies:
@@ -809,8 +844,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -823,6 +858,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -913,8 +953,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -927,6 +967,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1026,8 +1071,8 @@ proxy-groups:
       - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x
-      - 香港|皖港隧道|HGC|1.5x
+      - 香港|BGP中转|HGC|1.2x 流量1T
+      - 香港|皖港隧道|HGC|1.5x 流量1T
       - 番茄 30G 香港 F21 直连
       - 番茄 30G  香港 F22
       - 50G流量  HK01
@@ -1040,6 +1085,11 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
+      - 香港1|试用  裤佬
+      - 香港2|试用 裤佬
+      - 香港 HGC 2  跨越300G
+      - 香港3 HGC 跨越300G
+      - 香港6 80端口 跨越300G
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
