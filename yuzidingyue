@@ -14,44 +14,25 @@ proxies:
   - {name: 香港3 HGC 8, server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}, udp: true}
   - {name: 香港8, server: 101.32.26.213, port: 33333, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港 DMIT 4, server: 103.117.102.201, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.117.102.201}, udp: true}
-  - {name: GIA 香港1 阿里云, server: 47.243.67.117, port: 8888, type: vmess, uuid: ed6250f1-85c1-4743-8ab2-7acb0dce829d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 47.243.67.117}, udp: true}
-  - {name: 香港2, server: 2.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港3, server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港4, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: eeb4a4d3-b79d-30ce-977d-2990ede3d623, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港1, server: 2.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港5, server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
   - {name: 香港6, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 5c10a228-5c17-329d-a7f3-46d73f9a54dc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}, udp: true}
   - {name: 香港公益(无限流量), server: free.vproxy.us, port: 443, type: trojan, password: 2be8ab40-e56f-4fe0-b787-fe0908dc9169, sni: free.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: 旺财香港1, server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 旺财香港2, server: 118.107.244.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 旺财香港3, server: 118.107.244.110, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 旺财香港4, server: 118.107.244.110, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 旺财香港5, server: 118.107.244.110, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 旺财香港6, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 旺财香港7, server: 118.107.244.110, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 旺财香港8, server: 118.107.244.110, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 旺财香港9, server: 118.107.244.110, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 旺财香港10, server: 118.107.244.110, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 旺财香港11, server: 118.107.244.110, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 旺财香港12, server: 118.107.244.110, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 旺财香港13, server: 118.107.244.110, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 旺财香港14, server: 118.107.244.110, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 旺财香港15, server: 118.107.244.110, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 旺财香港16, server: 118.107.244.110, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 旺财香港17, server: 118.107.244.110, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 旺财香港18, server: 118.107.244.110, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 旺财香港19, server: 118.107.244.110, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 旺财香港20, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 旺财香港21, server: 118.107.244.110, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 旺财香港22, server: 118.107.244.110, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 旺财香港23, server: 118.107.244.110, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 旺财香港24, server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 旺财香港25, server: 118.107.244.110, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 旺财香港26, server: 118.107.244.110, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 香港佛山中转, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
-  - {name: 香港广州中转, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
-  - {name: 香港佛山中转1, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thkyd, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
-  - {name: 香港广州中转1, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thkyd, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
   - {name: 香港1 免费节点, server: hzcu.rymv2rayssl.xyz, port: 44612, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}, udp: true}
   - {name: 香港3 免费节点, server: hzcu.rymv2rayssl.xyz, port: 44613, type: vmess, uuid: da94cf7b-6eec-31da-bea3-4acf04c1ab0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: nat0.mlnl.host}, udp: true}
   - {name: HK香港1, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: youtube-aweikeji}, udp: true}
@@ -66,16 +47,11 @@ proxies:
   - {name: HK02, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049, udp: true}
   - {name: HK03, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 564b5925-d12e-4021-8bd1-ec9e843d73da, udp: true}
   - {name: HK04, server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 4e06bb48-9854-406b-ad0d-66952abf3015, udp: true}
-  - {name: 香港 1 测试, server: 120.232.82.174, port: 1000, type: ss, cipher: aes-128-gcm, password: g95R@D7Bbwi;N6, udp: true}
-  - {name: SC香港, server: scloudhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}, udp: true}
   - {name: Azure香港1, server: chiyikouazhk.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: chiyikouazhk.ednovas.net}, udp: true}
   - {name: Brook AZ香港 F4S, server: brookazuref4s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: brookazuref4s.ednovas.net}, udp: true}
-  - {name: HKT香港, server: anyhkhkt.dynamic-dns.net, port: 10018, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: anyhkhkt.dynamic-dns.net}, udp: true}
   - {name: 广港HKT香港, server: gy.c6.nkeo.top, port: 45700, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.c6.nkeo.top}, udp: true}
-  - {name: 安徽SC香港, server: ah.jiyunshu.com, port: 56815, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: scloudhk.ednovas.net}, udp: true}
   - {name: CMI香港0, server: hkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}, udp: true}
   - {name: 广港CMI香港0, server: gy.c6.nkeo.top, port: 45606, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: hkcmi300m.ednovas.net}, udp: true}
-  - {name: DY CMI香港3, server: dyhkcmi.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}, udp: true}
   - {name: 广港DY CMI香港3, server: gy.c6.nkeo.top, port: 45614, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi.ednovas.net}, udp: true}
   - {name: DY CMI香港4, server: dyhkcmi300m.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}, udp: true}
   - {name: 广港DY CMI香港4, server: gy.c6.nkeo.top, port: 45615, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: dyhkcmi300m.ednovas.net}, udp: true}
@@ -85,14 +61,10 @@ proxies:
   - {name: 广港AZ香港2, server: gy.c6.nkeo.top, port: 45648, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk2.ednovas.net}, udp: true}
   - {name: AZ香港3, server: azhk3.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}, udp: true}
   - {name: 广港AZ香港3, server: gy.c6.nkeo.top, port: 45651, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhk3.ednovas.net}, udp: true}
-  - {name: AZ香港4, server: az.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}, udp: true}
-  - {name: 广港 AZ香港4, server: gy.c6.nkeo.top, port: 45654, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: az.ednovas.net}, udp: true}
   - {name: AZ香港F2S, server: azhkf2s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf2s.ednovas.net}, udp: true}
   - {name: AZ香港F8S, server: azhkf8s.ednovas.net, port: 443, type: vmess, uuid: cf9c15ea-a463-4ee8-87b4-246adc71e80b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: azhkf8s.ednovas.net}, udp: true}
-  - {name: 香港|BGP中转|HGC|1.2x 流量1T, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 香港|皖港隧道|HGC|1.5x 流量1T, server: ahyd.foom.cc, port: 54733, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: ahyd.foom.cc, skip-cert-verify: true, udp: true}
-  - {name: 番茄 30G 香港 F21 直连, server: hkfq.ga, port: 443, type: vmess, uuid: d4088566-9b6d-348c-ba05-2ed5dc6f5048, alterId: 21, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /21, ws-headers: {Host: hkfq.ga}, udp: true}
-  - {name: 番茄 30G  香港 F22, server: hkfq.ml, port: 10022, type: vmess, uuid: d4088566-9b6d-348c-ba05-2ed5dc6f5048, alterId: 22, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /a22, ws-headers: {Host: hkfq.ml}, udp: true}
+  - {name: 香港|BGP中转|HGC|1.2x, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港|皖港隧道|HGC|1.5x, server: ahyd.foom.cc, port: 54733, type: trojan, password: 28b8ffd2-5fcf-4533-a4e8-54aea3b1856d, sni: ahyd.foom.cc, skip-cert-verify: true, udp: true}
   - {name: 50G流量  HK01, server: gdgz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK06, server: hz.marslink.icu, port: 41100, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK02, server: gdgz.marslink.icu, port: 41101, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
@@ -103,11 +75,17 @@ proxies:
   - {name: 50G流量  HK09, server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK05, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
   - {name: 50G流量  HK10, server: hz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 0b3af2b6-884d-450f-87a4-466fb61d14ea, udp: true}
-  - {name: 香港1|试用  裤佬, server: 120.197.85.22, port: 45668, type: ss, cipher: chacha20-ietf-poly1305, password: ed6e4242-ef78-4020-a04d-cdd0a275cb01, udp: true}
-  - {name: 香港2|试用 裤佬, server: 120.197.85.22, port: 45669, type: ss, cipher: chacha20-ietf-poly1305, password: ed6e4242-ef78-4020-a04d-cdd0a275cb01, udp: true}
-  - {name: 香港 HGC 2  跨越300G, server: shadowmoon.ddnsfree.com, port: 21888, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shadowmoon.ddnsfree.com}, udp: true}
-  - {name: 香港3 HGC 跨越300G, server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}, udp: true}
-  - {name: 香港6 80端口 跨越300G, server: 8.210.55.79, port: 80, type: vmess, uuid: 12cd8b19-87cf-4d3f-8c17-ef8dddd9c317, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.210.55.79}, udp: true}
+  - {name: GLaDOS-N2-00, server: 71cbc61.pa.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pa.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-01, server: 71cbc61.pb.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pb.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-02, server: 71cbc61.pc.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pc.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-03, server: 71cbc61.pd.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-04, server: 71cbc61.pe.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pe.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-05, server: 71cbc61.pf.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pf.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-06, server: 71cbc61.pg.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pg.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-07, server: 71cbc61.ph.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.ph.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: GLaDOS-N2-08, server: 71cbc61.pi.gladns.com, port: 3389, type: trojan, password: 032532644f4fd784, sni: 71cbc61.pi.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 香港佛山中转, server: fosyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thcm, ws-headers: {Host: fosyd.tuboshu.space}, udp: true}
+  - {name: 香港广州中转, server: gzyd.tuboshu.space, port: 18888, type: vmess, uuid: 3cfb790e-b33f-303f-b386-05f6a82692cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /thcm, ws-headers: {Host: gzyd.tuboshu.space}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -123,44 +101,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -175,16 +134,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -194,14 +148,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -212,11 +162,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -231,44 +187,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -283,16 +220,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -302,14 +234,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -320,11 +248,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -340,44 +274,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -392,16 +307,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -411,14 +321,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -429,11 +335,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -461,44 +373,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -513,16 +406,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -532,14 +420,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -550,11 +434,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -566,44 +456,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -614,16 +485,11 @@ proxy-groups:
       - 香港02 稳
       - 香港03 稳
       - 香港04 稳
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -633,19 +499,12 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
+      - 香港佛山中转
+      - 香港广州中转
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -661,44 +520,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -713,16 +553,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -732,14 +567,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -750,11 +581,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: 📲 电报信息
     type: select
     proxies:
@@ -769,44 +606,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -821,16 +639,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -840,14 +653,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -858,11 +667,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -878,44 +693,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -930,16 +726,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -949,14 +740,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -967,11 +754,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -996,44 +789,25 @@ proxy-groups:
       - 香港3 HGC 8
       - 香港8
       - 香港 DMIT 4
-      - GIA 香港1 阿里云
-      - 香港2
-      - 香港3
-      - 香港4
-      - 香港1
-      - 香港5
       - 香港6
       - 香港公益(无限流量)
-      - 旺财香港1
-      - 旺财香港2
       - 旺财香港3
       - 旺财香港4
       - 旺财香港5
-      - 旺财香港6
       - 旺财香港7
       - 旺财香港8
       - 旺财香港9
-      - 旺财香港10
       - 旺财香港11
       - 旺财香港12
-      - 旺财香港13
-      - 旺财香港14
       - 旺财香港15
       - 旺财香港16
       - 旺财香港17
-      - 旺财香港18
       - 旺财香港19
       - 旺财香港20
       - 旺财香港21
       - 旺财香港22
-      - 旺财香港23
-      - 旺财香港24
       - 旺财香港25
       - 旺财香港26
-      - 香港佛山中转
-      - 香港广州中转
-      - 香港佛山中转1
-      - 香港广州中转1
       - 香港1 免费节点
       - 香港3 免费节点
       - HK香港1
@@ -1048,16 +822,11 @@ proxy-groups:
       - HK02
       - HK03
       - HK04
-      - 香港 1 测试
-      - SC香港
       - Azure香港1
       - Brook AZ香港 F4S
-      - HKT香港
       - 广港HKT香港
-      - 安徽SC香港
       - CMI香港0
       - 广港CMI香港0
-      - DY CMI香港3
       - 广港DY CMI香港3
       - DY CMI香港4
       - 广港DY CMI香港4
@@ -1067,14 +836,10 @@ proxy-groups:
       - 广港AZ香港2
       - AZ香港3
       - 广港AZ香港3
-      - AZ香港4
-      - 广港 AZ香港4
       - AZ香港F2S
       - AZ香港F8S
-      - 香港|BGP中转|HGC|1.2x 流量1T
-      - 香港|皖港隧道|HGC|1.5x 流量1T
-      - 番茄 30G 香港 F21 直连
-      - 番茄 30G  香港 F22
+      - 香港|BGP中转|HGC|1.2x
+      - 香港|皖港隧道|HGC|1.5x
       - 50G流量  HK01
       - 50G流量  HK06
       - 50G流量  HK02
@@ -1085,11 +850,17 @@ proxy-groups:
       - 50G流量  HK09
       - 50G流量  HK05
       - 50G流量  HK10
-      - 香港1|试用  裤佬
-      - 香港2|试用 裤佬
-      - 香港 HGC 2  跨越300G
-      - 香港3 HGC 跨越300G
-      - 香港6 80端口 跨越300G
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04
+      - GLaDOS-N2-05
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07
+      - GLaDOS-N2-08
+      - 香港佛山中转
+      - 香港广州中转
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
